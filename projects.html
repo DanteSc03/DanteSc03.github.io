@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content = "with=device-width, initial-scale=1.0">
+    <title>Dante Schrantz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/js/all.min.js"></script>
+
+</head>
+<body>
+   <section class= "header">
+       <nav>
+            <a href="index.html"><img src="Images/dms-high-resolution-logo-white-transparent.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href ="index.html">HOME</a></li>
+                   <li><a href ="about.html">ABOUT ME</a></li>
+                   <li><a href ="projects.html" class="regular-btn">PROJECTS</a></li>
+                   <li><a href ="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+       <h1> Projects</h1>
+    <p>Here are a few projects that I have worked on in my career. Proving my expertise in all my fields of work.
+    </p>
+</div>
+       
+ </section>
+<section class="projects">
+    <h1>Projects I Have Worked On</h1>
+    <!-- Add content about your projects -->
+</section>
+
+    <!-- Include the common footer with social icons -->
+    <!-- Include the JavaScript for toggle menu or any other common functionality -->
+    
+    
+<!---- Footer---->
+<section class="footer">
+    <h4>Connect With Me</h4>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/dante-m-schrantz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/DanteSc03" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> by Dante Schrantz</p>
+</section>
+    
+<!-------Javascript for toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

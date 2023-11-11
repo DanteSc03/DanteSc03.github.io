@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content = "with=device-width, initial-scale=1.0">
+    <title>Dante Schrantz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/js/all.min.js"></script>
+
+</head>
+<body>
+   <section class= "header">
+       <nav>
+            <a href="index.html"><img src="Images/dms-high-resolution-logo-white-transparent.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href ="index.html">HOME</a></li>
+                   <li><a href ="about.html">ABOUT ME</a></li>
+                   <li><a href ="projects.html" class="regular-btn">PROJECTS</a></li>
+                   <li><a href ="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+       <h1> Dante Schrantz</h1>
+    <p>Transforming raw data into actionable insights
+    </p>
+</div>
+       
+ </section>
+    
+    
+<!------Projects----->
+<section class= "projects">
+    <h1> Projects I Have Worked On</h1>
+    <p>A short summary about the projects I have worked on throughout my career</p>
+    
+    <div class="row">
+        <div class="projects-col">
+            <h3>Time Spent Analysis</h3>
+            <p>Statistics project in R about time spent, relating data to current and past events. Analyzing, manipulating and visualizing data for a comprehensive understanding of time. Analysis was done entirely using R programming language creating visual and manipulating data to extract a complete analysis. </p>
+        </div>
+    
+        <div class="projects-col">
+            <h3>Aim2Flourish</h3>
+            <p>Contributed to AIM2Flourish, conducting research and interviews to showcase businesses aligning with UN SDGs. Authored impactful stories emphasizing the link between business success and sustainable development. Inspired and educated peers through effective communication on the AIM2Flourish platform. Played a key role in recognizing businesses contributing to positive societal and environmental change.</p>
+        </div>
+     
+        <div class="projects-col">
+            <h3>BrewStop</h3>
+            <p>Led the 3D modeling team and product development along with filing a utility patent. During my tenure at Brewstop, I acquired advanced proficiency in Onshape and learned SOLIDWORKS, which enabled me to create intricate 3-Dimensional models of our products. I actively engaged in data collection through rigorous testing and presented our products at numerous events to diverse audiences. All of these expertise have led me to become an avid 3D modeler in my spare time. </p>
+        </div>
+    </div>
+    
+</section>
+    
+<!------About Me------>
+    <section class="about-me">
+        <h1>About Me</h1>
+        <p>I am a second year student at the University of Navarra majoring in Business Administration with Data Analytics. I am an avid Data Analyst looking for an opportunity to further develop my skills in data analytics and contribute to a dynamic organization's success. I am enthusiastic, energetic, punctual, dedicated, flexible, team player, well organized and responsible. My work history and academic achievements reflect a well-rounded individual with a strong foundation in data analytics through use of technology and leadership.
+        </p>
+        
+        <div class="row">
+            <div class ="about-me-col">
+                <img src="images/Screenshot%202023-10-20%20at%202.19.59%E2%80%AFPM%20copy.png">
+                <div class="layer">
+                    <h3>ME</h3>
+                </div>
+            </div>
+            <div class ="about-me-col">
+                <img src="Images/Screenshot 2023-11-11 at 5.02.35 PM.png">
+                <div class="layer">
+                    <h3>TENNIS</h3>
+                </div>
+            </div>
+            <div class ="about-me-col">
+                <img src="Images/Screenshot 2023-11-11 at 5.08.29 PM.png">
+                <div class="layer">
+                    <h3>MY PETS</h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="contact">
+    <h2>Interested in working with me?</h2>
+        <a href="mailto:danteschrantz@gmail.com" class="contact-btn">CONTACT ME</a>
+    </section>
+    
+    
+<!---- Footer---->
+<section class="footer">
+    <h4>Connect With Me</h4>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/dante-m-schrantz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/DanteSc03" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> by Dante Schrantz</p>
+</section>
+    
+<!-------Javascript for toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+
+    
+    
+</body>
+</html>
