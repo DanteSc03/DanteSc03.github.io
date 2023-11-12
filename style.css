@@ -344,13 +344,12 @@ h3{
 .EducationTitle{
     width:100%;
     text-align:center;
-    padding-top:100px;
-    padding-bottom: 40px;
+    padding-top:60px;
 }
 .HighTitle{
     width:88%;
     margin:auto;
-    padding-top:20px;
+    padding-top:10px;
 }
 .HighTitle h4{
     font-size: 22px;
