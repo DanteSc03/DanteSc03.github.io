@@ -429,16 +429,4 @@ h3{
 }
 
 
-/*-----Website Views-----*/
-.website-views {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 20px 0;
-}
-.website-views p {
-    font-size: 10px;
-}
-#views-count {
-    font-weight: bold;
-}
 
