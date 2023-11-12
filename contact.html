@@ -12,11 +12,12 @@
 
 </head>
 <body>
+    
    <section class= "header">
        <nav>
             <a href="index.html"><img src="Images/dms-high-resolution-logo-white-transparent.png"></a>
            <div class="nav-links" id="navLinks">
-               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <i id="timesIcon" class="fa fa-times" onclick="hideMenu()"></i>
                <ul>
                    <li><a href ="index.html">HOME</a></li>
                    <li><a href ="">ABOUT ME</a></li>
@@ -33,6 +34,8 @@
 </div>
        
  </section>
+    
+    <div class="container">
 <section class="Contact">
     <h1>My email and social profiles</h1>
     <!-- Add content about your projects -->
@@ -50,14 +53,19 @@
     
 <!-------Javascript for toggle menu------->
 <script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
+   var navLinks = document.getElementById("navLinks");
+var timesIcon = document.getElementById("timesIcon");
+
+function showMenu() {
+    navLinks.classList.add("active");
+    timesIcon.classList.add("active");
+}
+
+function hideMenu() {
+    navLinks.classList.remove("active");
+    timesIcon.classList.remove("active");
+}
 </script>
-    
+    </div>
 </body>
 </html>
