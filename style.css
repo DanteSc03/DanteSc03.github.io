@@ -248,7 +248,7 @@ h3{
 .BGTitle{
     width:100%;
     text-align:center;
-    padding:30px 0;
+    padding-top:100px;
 }
 .content-container {
     display: flex;
@@ -256,6 +256,7 @@ h3{
     justify-content: space-between;
     max-width: 90%;
     margin: auto;
+    padding-top: 40px;
 }
 .BGimg {
     width: 35%; 
@@ -280,7 +281,8 @@ h3{
 .HATitle{
     width:100%;
     text-align:center;
-    padding-top:80px;
+    padding-top:100px;
+    padding-bottom: 30px;
 }
 .content-contained {
     display: flex;
@@ -308,16 +310,68 @@ h3{
     height: auto;
     display: block;
 }
+/*Education*/
+.EducationTitle{
+    width:100%;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom: 40px;
+}
+.HighTitle{
+    width:88%;
+    margin:auto;
+    padding-top:20px;
+}
+.HighTitle h4{
+    font-size: 22px;
+    line-height: 1.6;
+}
+.Years{
+    width:90%;
+    margin:auto;
+    padding-bottom: 0;
+}
+.Years p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.content-contained {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+.HighText {
+    width: 65%; 
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
+.HighText p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.Highimg {
+    max-width: 30%; 
+}
+.Highimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 /*----------------------Projects---------------*/
 /*Time Spent*/
 .projectsTitle{
     width:100%;
     text-align:center;
-    padding:30px 0;
+    padding-top:100px;
 }
 .TimeSpentTitle{
     max-width:90%;
     margin:auto;
+    padding-top:40px;
 }
 .content-contain{
     display:flex;
@@ -351,7 +405,7 @@ h3{
 .footer{
     width: 100%;
     text-align:center;
-    padding-top: 60px;
+    padding-top: 90px;
     padding-bottom: 30px;
 }
 
