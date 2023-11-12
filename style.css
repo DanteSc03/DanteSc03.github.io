@@ -358,38 +358,25 @@ h3{
 .Years{
     width:90%;
     margin:auto;
-    padding-bottom: 0;
 }
 .Years p{
+    padding-top: 0px;
     font-size: 20px;
     line-height: 1.6;
 }
-.content-contained {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 90%;
-    margin: auto;
-}
 .HighText {
-    width: 65%; 
+    max-width:90%;
+    width: 75%; 
     height: auto;
     display: block;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 5%;
 }
 .HighText p {
     font-size: 18px;
     line-height: 1.6;
 }
-.Highimg {
-    max-width: 30%; 
-}
-.Highimg img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+
 /*----------------------Projects---------------*/
 /*Time Spent*/
 .projectsTitle{
