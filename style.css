@@ -46,7 +46,6 @@ nav img{
 }
 .nav-links ul li:hover::after{
     width: 100%;
-    
 }
 .text-box{
     width: 90%;
@@ -64,22 +63,6 @@ nav img{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
-}
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
 }
 nav.fa{
     display:none;
@@ -260,6 +243,77 @@ h3{
     }
 }
 
+/*--------------------About Me Page-------------*/
+/*background info*/
+.BGTitle{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+.BGimg {
+    width: 47%; 
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
+.BGimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.BGtext {
+    max-width: 47%; 
+}
+.BGtext p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*----------------------Projects---------------*/
+/*Time Spent*/
+.projectsTitle{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+}
+.TimeSpentTitle{
+    max-width:90%;
+    margin:auto;
+}
+.content-contain{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width:90%;
+    margin:auto;
+}.TimeText{
+    max-width: 47%;
+}
+.TimeText p{
+    font-size:16px;
+    line-height:1.6;
+}
+.TimeSpentimg{
+    width:47%;
+    height: auto;
+    display: block;
+    margin-right:0;
+    margin-left:auto;
+}
+.TimeSpentimg img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+
 
 /*------footer------*/
 .footer{
@@ -283,7 +337,7 @@ h3{
     color:#f44336;
 }
 .icons .fa-linkedin, .icons .fa-github {
-    font-size: 3em; 
+    font-size: 2.5em; 
     color: black;
 }
 
