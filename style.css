@@ -110,7 +110,11 @@ nav.fa{
         cursor: pointer;
     }
 }
-
+@media screen and (min-width: 700px) {
+    nav-links .fa.fa-times {
+        display: none !important;
+    }
+}
 /*------Projects-----*/
 .projects{
     width: 80%;
