@@ -258,7 +258,7 @@ h3{
     margin: auto;
 }
 .BGimg {
-    width: 47%; 
+    width: 35%; 
     height: auto;
     display: block;
     margin-right: auto;
@@ -270,11 +270,43 @@ h3{
     display: block;
 }
 .BGtext {
-    max-width: 47%; 
+    max-width: 55%; 
 }
 .BGtext p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+}
+/*hobbies info*/
+.HATitle{
+    width:100%;
+    text-align:center;
+    padding-top:80px;
+}
+.content-contained {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+.HAtext {
+    width: 55%; 
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
+.HAtext p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.HAimg {
+    max-width: 35%; 
+}
+.HAimg img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 /*----------------------Projects---------------*/
 /*Time Spent*/
@@ -319,7 +351,8 @@ h3{
 .footer{
     width: 100%;
     text-align:center;
-    padding: 30px 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .footer h1{
