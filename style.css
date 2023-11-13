@@ -46,7 +46,7 @@ nav img{
     content: "";
     width: 0%;
     height: 2px;
-    background: orange;
+    background: red;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -174,8 +174,8 @@ p{
     box-sizing: border-box;
     padding: 20px 12px;
     transition: 0.5s;
+    text-align: justify;
 }
-
 h3{
     text-align:center;
     font-weight:600;
@@ -273,6 +273,7 @@ h3{
 .BGtext p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: justify;
 }
 /*hobbies info*/
 .HATitle{
@@ -298,6 +299,7 @@ h3{
 .HAtext p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: justify;
 }
 .HAimg {
     max-width: 35%; 
@@ -343,6 +345,7 @@ h3{
 .UnavText p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: justify;
 }
 /*HighSchool*/
 .HighTitle{
@@ -362,6 +365,7 @@ h3{
     padding-top: 0px;
     font-size: 20px;
     line-height: 1.6;
+    text-align: justify;
 }
 .HighText {
     max-width:80%;
@@ -374,6 +378,7 @@ h3{
 .HighText p {
     font-size: 18px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 /*----------------------Projects---------------*/
@@ -400,6 +405,7 @@ h3{
 .TimeText p{
     font-size:16px;
     line-height:1.6;
+    text-align: justify;
 }
 .TimeSpentimg{
     width:32%;
@@ -409,6 +415,39 @@ h3{
     margin-left:auto;
 }
 .TimeSpentimg img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+/*BrewStop*/
+.BrewTitle{
+    max-width:78%;
+    margin:auto;
+    padding-top:40px;
+}
+.content-contain{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width:80%;
+    margin:auto;
+}.BrewText{
+    max-width: 62%;
+}
+.BrewText p{
+    font-size:16px;
+    line-height:1.6;
+    text-align: justify;
+}
+.Brewimg{
+    width:32%;
+    height: auto;
+    display: block;
+    margin-right:0;
+    margin-left:auto;
+}
+.Brewimg img{
     width:100%;
     height:auto;
     display:block;
