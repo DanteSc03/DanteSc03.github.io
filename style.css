@@ -31,18 +31,18 @@ nav img{
     flex: 1; 
     text-align: right;
 }
-.nav-links ul li{
+.nav-links h4 li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
+.nav-links h4 li a{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
 }
-.nav-links ul li::after{
+.nav-links h4 li::after{
     content: "";
     width: 0%;
     height: 2px;
@@ -51,7 +51,7 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after{
+.nav-links h4 li:hover::after{
     width: 100%;
 }
 .text-box{
@@ -128,7 +128,7 @@ nav.fa{
         top: 20px;
         left:10px;
     }
-    .nav-links ul {
+    .nav-links h4 {
         padding: 30px;
     }
     nav.fa {
