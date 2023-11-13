@@ -24,7 +24,7 @@ nav{
     padding:2% 2%;
 }
 nav img{
-    width: 150px;
+    width: 120px;
     padding:10% 10%;
 }
 .nav-links{
@@ -95,7 +95,7 @@ nav.fa{
 
 @media screen and (max-width: 700px) {
     nav img{
-        width:100px;
+        width:80px;
     }
     .fa-bars {
         display: inline-block;
