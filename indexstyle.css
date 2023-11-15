@@ -10,7 +10,6 @@ body{
 .header{
     width: 100vw;
     height: 100vh;
-    max-height: 100vw;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/Programming.jpeg);
     background-position: center;
     background-size: cover;
