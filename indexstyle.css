@@ -7,13 +7,6 @@ body{
     max-width: 1500px;
     margin: 0 auto;
 }
-.header{
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/Programming.jpeg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 nav{
     display: flex;
@@ -37,6 +30,11 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
+.nav-links h4 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
 .nav-links h4 li::after{
     content: "";
     width: 0%;
@@ -51,7 +49,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: #fff;
+    color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,7 +62,7 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color: black;
 }
 nav.fa{
     display:none;
@@ -78,9 +76,6 @@ nav.fa{
 
 
 @media screen and (min-width: 700px) {
-    .header{
-        height: 100vh;
-    }
     .fa-bars {
         display: none;
     }
@@ -88,18 +83,10 @@ nav.fa{
         display: none;
         opacity: 0;
     }
-    .nav-links h4 li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-}
 }
 
 
 @media screen and (max-width: 700px) {
-    .header{
-        height: 100vw;
-    }
     nav img{
         width:80px;
     }
@@ -110,33 +97,18 @@ nav.fa{
     .fa-times {
         display: none;
     }
-    .nav-links.active .fa-bars {
-    display: none;
-    }
-
-    .nav-links.active .fa-times {
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    }
     .nav-links {
         display: none;
         position: fixed;
         background: red;
         opacity: 0;
         height: 100vh;
-        width: 120px;
+        width: 150px;
         top: 0;
         right: -100%;
         text-align: left;
         z-index: 2;
         transition: right 0.5s ease;
-    }
-     .nav-links h4 li a{
-    color: black;
-    text-decoration: none;
-    font-size: 13px;
     }
     .nav-links.active {
         right: 0;
@@ -150,7 +122,7 @@ nav.fa{
         left:10px;
     }
     .nav-links h4 {
-        padding: 10px;
+        padding: 30px;
     }
     nav.fa {
         display: block;
@@ -167,7 +139,7 @@ nav.fa{
     width: 80%;
     margin:auto;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 h1{
     font-size: 36px;
@@ -266,7 +238,7 @@ h3{
 .BGTitle{
     width:100%;
     text-align:center;
-    padding-top:100px;
+    padding-top:40px;
 }
 .content-container {
     display: flex;
@@ -274,10 +246,10 @@ h3{
     justify-content: space-between;
     max-width: 80%;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .BGimg {
-    width: 35%; 
+    max-width: 25vw; 
     height: auto;
     display: block;
     margin-right: auto;
@@ -289,19 +261,32 @@ h3{
     display: block;
 }
 .BGtext {
-    max-width: 55%; 
+    max-width: 50vw; 
 }
 .BGtext p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
 }
+
+@media (max-width: 700px) {
+    .content-container {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .BGtext{
+        max-width: 90vw;
+    }
+    .BGimg{
+        max-width:80vw;
+    }
+}
 /*hobbies info*/
 .HATitle{
     width:100%;
     text-align:center;
-    padding-top:100px;
-    padding-bottom: 30px;
+    padding-top:40px;
+    padding-bottom: 20px;
 }
 .content-contained {
     display: flex;
@@ -311,7 +296,7 @@ h3{
     margin: auto;
 }
 .HAtext {
-    width: 55%; 
+    max-width: 50vw; 
     height: auto;
     display: block;
     margin-right: auto;
@@ -323,18 +308,31 @@ h3{
     text-align: justify;
 }
 .HAimg {
-    max-width: 35%; 
+    max-width: 25vw; 
 }
 .HAimg img {
     width: 100%;
     height: auto;
     display: block;
 }
+
+@media (max-width: 700px) {
+    .content-contained {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .HAtext{
+        max-width: 90vw;
+    }
+    .HAimg{
+        max-width:80vw;
+    }
+}
 /*Education*/
 .EducationTitle{
     width:100%;
     text-align:center;
-    padding-top:60px;
+    padding-top:40px;
 }
 .UnavTitle{
     width:78%;
@@ -402,13 +400,9 @@ h3{
     text-align: justify;
 }
 
+
 /*----------------------Projects---------------*/
 /*Time Spent*/
-.projectsTitle{
-    width:100%;
-    text-align:center;
-    padding-top:100px;
-}
 .TimeSpentTitle{
     max-width:78%;
     margin:auto;
@@ -421,7 +415,7 @@ h3{
     max-width:80%;
     margin:auto;
 }.TimeText{
-    max-width: 62%;
+    max-width: 50vw;
 }
 .TimeText p{
     font-size:16px;
@@ -429,7 +423,7 @@ h3{
     text-align: justify;
 }
 .TimeSpentimg{
-    width:32%;
+    max-width:25vw;
     height: auto;
     display: block;
     margin-right:0;
@@ -439,6 +433,18 @@ h3{
     width:100%;
     height:auto;
     display:block;
+}
+@media (max-width: 700px) {
+    .content-contain {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .TimeText{
+        max-width: 90vw;
+    }
+    .TimeSpentimg{
+        max-width:80vw;
+    }
 }
 
 /*BrewStop*/
@@ -454,7 +460,7 @@ h3{
     max-width:80%;
     margin:auto;
 }.BrewText{
-    max-width: 62%;
+    max-width: 50vw;
 }
 .BrewText p{
     font-size:16px;
@@ -462,7 +468,7 @@ h3{
     text-align: justify;
 }
 .Brewimg{
-    width:32%;
+    max-width:20vw;
     height: auto;
     display: block;
     margin-right:0;
@@ -472,6 +478,18 @@ h3{
     width:100%;
     height:auto;
     display:block;
+}
+@media (max-width: 700px) {
+    .content-contain {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .BrewText{
+        max-width: 90vw;
+    }
+    .Brewimg{
+        max-width:80vw;
+    }
 }
 
 
@@ -485,6 +503,7 @@ h3{
     background-image: url(Images/Email.png);
     background-position: center center;
     background-size: 95%;
+    background-repeat: no-repeat;
     border-radius: 10px;
     text-align: center;
     padding: 200px 0;
