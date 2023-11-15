@@ -114,16 +114,7 @@ nav.fa{
     .fa-times {
         display: none;
     }
-    .nav-links.active .fa-bars {
-    display: none;
-    }
-
-    .nav-links.active .fa-times {
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    }
+    
     .nav-links {
         display: none;
         position: fixed;
