@@ -15,6 +15,9 @@ body{
     background-size: cover;
     position: relative;
 }
+.header p{
+    font-weight: 400;
+}
 nav{
     display: flex;
     justify-content: space-between;
