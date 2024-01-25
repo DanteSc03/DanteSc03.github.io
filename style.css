@@ -434,6 +434,9 @@ h3{
     height:auto;
     display:block;
 }
+.ReportPDF{
+    padding-left: 9%;
+}
 @media (max-width: 700px) {
     .content-contain {
         flex-direction: column; 
