@@ -403,6 +403,53 @@ h3{
 
 /*----------------------Projects---------------*/
 /*Time Spent*/
+.CadTitle{
+    max-width:78%;
+    margin:auto;
+    padding-top:40px;
+}
+.content-contain{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width:80%;
+    margin:auto;
+}.CadText{
+    max-width: 50vw;
+}
+.CadText p{
+    font-size:16px;
+    line-height:1.6;
+    text-align: justify;
+}
+.Cadimg{
+    max-width:25vw;
+    height: auto;
+    display: block;
+    margin-right:0;
+    margin-left:auto;
+}
+.Cadimg img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+
+@media (max-width: 700px) {
+    .content-contain {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .CadText{
+        max-width: 90vw;
+    }
+    .Cadimg{
+        max-width:80vw;
+    }
+}
+
+/*Time Spent*/
 .TimeSpentTitle{
     max-width:78%;
     margin:auto;
@@ -437,6 +484,7 @@ h3{
 .ReportPDF{
     padding-left: 9%;
 }
+
 @media (max-width: 700px) {
     .content-contain {
         flex-direction: column; 
